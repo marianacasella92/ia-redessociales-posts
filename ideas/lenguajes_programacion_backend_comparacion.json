@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "titulo": "Python vs Java vs PHP vs Node.js vs Go",
+    "bullets": [
+      "Python rapido de aprender y gran ecosistema",
+      "Java robusto y usado en grandes empresas",
+      "PHP sigue fuerte en desarrollo web",
+      "Node.js orientado a apps en tiempo real",
+      "Go destaca por su rendimiento y simplicidad"
+    ],
+    "cta": "Explora cual se adapta mejor a tu proyecto",
+    "caption": "Cada lenguaje backend tiene sus fortalezas. Conocerlas te ayudara a elegir el correcto para tu carrera o proyecto.",
+    "hashtags": ["#backendpython", "#buenaspracticas", "#django", "#aprendeprogramacion", "#programacion", "#dev", "#python", "#backend"]
+  },
+  {
+    "id": 2,
+    "titulo": "5 lenguajes backend comparados",
+    "bullets": [
+      "Python flexible y con muchos frameworks",
+      "Java seguro y con fuerte tipado",
+      "PHP optimizado para sitios dinamicos",
+      "Node.js usa JavaScript en el servidor",
+      "Go ideal para microservicios rapidos"
+    ],
+    "cta": "Conoce sus diferencias y fortalezas",
+    "caption": "Comparacion clara de los lenguajes backend mas usados. Descubre sus pros y contras.",
+    "hashtags": ["#backendpython", "#buenaspracticas", "#django", "#aprendeprogramacion", "#programacion", "#dev", "#python", "#backend"]
+  },
+  {
+    "id": 3,
+    "titulo": "¿Que lenguaje backend elegir?",
+    "bullets": [
+      "Python sencillo y versatil",
+      "Java confiable y escalable",
+      "PHP popular en la web clasica",
+      "Node.js destaca en apps en tiempo real",
+      "Go rapido y eficiente en memoria"
+    ],
+    "cta": "Decide segun tus metas como dev",
+    "caption": "Elegir un lenguaje backend depende de tus objetivos y del tipo de proyecto que quieras construir.",
+    "hashtags": ["#backendpython", "#buenaspracticas", "#django", "#aprendeprogramacion", "#programacion", "#dev", "#python", "#backend"]
+  },
+  {
+    "id": 4,
+    "titulo": "Backend en 5 sabores",
+    "bullets": [
+      "Python: perfecto para prototipos",
+      "Java: preferido en sistemas bancarios",
+      "PHP: domina en CMS como Wordpress",
+      "Node.js: integra bien con frontend JS",
+      "Go: disenado para alta concurrencia"
+    ],
+    "cta": "Elige el sabor que potencia tu idea",
+    "caption": "El backend no es igual para todos. Cada lenguaje tiene su terreno donde brilla.",
+    "hashtags": ["#backendpython", "#buenaspracticas", "#django", "#aprendeprogramacion", "#programacion", "#dev", "#python", "#backend"]
+  },
+  {
+    "id": 5,
+    "titulo": "Comparativa rapida de lenguajes backend",
+    "bullets": [
+      "Python: sintaxis clara y gran comunidad",
+      "Java: portabilidad y estandar empresarial",
+      "PHP: rapido para sitios y ecommerce",
+      "Node.js: excelente para APIs modernas",
+      "Go: rendimiento cercano a C"
+    ],
+    "cta": "Descubre el mas conveniente para ti",
+    "caption": "Un vistazo rapido a los lenguajes backend mas usados y sus principales ventajas.",
+    "hashtags": ["#backendpython", "#buenaspracticas", "#django", "#aprendeprogramacion", "#programacion", "#dev", "#python", "#backend"]
+  },
+  {
+    "id": 6,
+    "titulo": "Top 5 lenguajes backend",
+    "bullets": [
+      "Python: facil y versatil",
+      "Java: robusto y multiplataforma",
+      "PHP: clasico y masivo en la web",
+      "Node.js: escalable y veloz",
+      "Go: simple y poderoso en servidores"
+    ],
+    "cta": "Explora el top de lenguajes backend",
+    "caption": "Un top 5 de lenguajes backend que dominan el mercado y lo que los hace unicos.",
+    "hashtags": ["#backendpython", "#buenaspracticas", "#django", "#aprendeprogramacion", "#programacion", "#dev", "#python", "#backend"]
+  },
+  {
+    "id": 7,
+    "titulo": "Backend: de clasico a moderno",
+    "bullets": [
+      "Python: ideal en ciencia de datos y web",
+      "Java: legado fuerte y soporte a largo plazo",
+      "PHP: rapido para soluciones web sencillas",
+      "Node.js: integracion fullstack con JS",
+      "Go: preferido en infraestructura cloud"
+    ],
+    "cta": "Mira como evoluciona el backend",
+    "caption": "Del clasico PHP al moderno Go, los lenguajes backend muestran la evolucion del desarrollo.",
+    "hashtags": ["#backendpython", "#buenaspracticas", "#django", "#aprendeprogramacion", "#programacion", "#dev", "#python", "#backend"]
+  },
+  {
+    "id": 8,
+    "titulo": "Que backend usar en tu proyecto",
+    "bullets": [
+      "Python: rapido para MVPs",
+      "Java: estabilidad en proyectos grandes",
+      "PHP: buena opcion en CMS",
+      "Node.js: apps con tiempo real y sockets",
+      "Go: perfecto para escalabilidad"
+    ],
+    "cta": "Define tu backend con criterio",
+    "caption": "Tu eleccion de backend impacta la velocidad y la escalabilidad de tu proyecto.",
+    "hashtags": ["#backendpython", "#buenaspracticas", "#django", "#aprendeprogramacion", "#programacion", "#dev", "#python", "#backend"]
+  },
+  {
+    "id": 9,
+    "titulo": "Lenguajes backend esenciales",
+    "bullets": [
+      "Python: sintaxis simple",
+      "Java: confiabilidad probada",
+      "PHP: base de millones de sitios",
+      "Node.js: unifica frontend y backend",
+      "Go: optimizado para sistemas modernos"
+    ],
+    "cta": "Conoce los esenciales del backend",
+    "caption": "Los lenguajes esenciales del backend que siguen marcando la diferencia en el desarrollo actual.",
+    "hashtags": ["#backendpython", "#buenaspracticas", "#django", "#aprendeprogramacion", "#programacion", "#dev", "#python", "#backend"]
+  },
+  {
+    "id": 10,
+    "titulo": "Backend: fortalezas de 5 lenguajes",
+    "bullets": [
+      "Python: amigable y potente",
+      "Java: fuerte en rendimiento",
+      "PHP: facil de desplegar en hosting",
+      "Node.js: rapido con gran comunidad",
+      "Go: concurrente y ligero"
+    ],
+    "cta": "Saca ventaja de sus fortalezas",
+    "caption": "Cada lenguaje backend tiene un campo de batalla donde brilla. Descubre el tuyo.",
+    "hashtags": ["#backendpython", "#buenaspracticas", "#django", "#aprendeprogramacion", "#programacion", "#dev", "#python", "#backend"]
+  }
+]

@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <!-- ===== estilos ===== -->
+  <defs>
+    <style>
+      .bg { fill:#0F172A; }
+      .rail { fill:#0B1221; opacity:.85; }
+      .title { font-family:Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; font-weight:800; fill:#FFFFFF; }
+      .panel { fill:#0B1221; stroke:#1F2635; stroke-width:2; }
+      .bullet-text { font-family:Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; fill:#E6ECF3; }
+    </style>
+  </defs>
+
+  <!-- ===== fondo y franja ===== -->
+  <rect class="bg" x="0" y="0" width="1080" height="1080"/>
+  <rect class="rail" x="0" y="0" width="120" height="1080"/>
+
+  <!-- ===== título ===== -->
+  <!-- Variables: 5 lenguajes, backend comparados -->
+  <g class="title" font-size="54" text-anchor="start">
+    <text x="160" y="120">5 lenguajes</text>
+    <text x="160" y="180">backend comparados</text>
+  </g>
+
+  <!-- ===== panel de lista ===== -->
+  <g transform="translate(160,240)">
+    <rect class="panel" x="0" y="0" rx="16" ry="16" width="760" height="760"/>
+
+    <!-- Bullets -->
+    
+    
+    <g transform="translate(32, 40)">
+      <!-- icono bullet -->
+      <circle cx="24" cy="28" r="10" fill="#48B0F7"/>
+      <path d="M18 28 l6 6 l11 -13" fill="none" stroke="#0F172A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <!-- texto -->
+      <text x="50" y="34" class="bullet-text" font-size="32" xml:space="preserve">
+        <tspan x="50" dy="0">Python flexible y con muchos frameworks</tspan>
+        
+        
+      </text>
+    </g>
+    
+    <g transform="translate(32, 170)">
+      <!-- icono bullet -->
+      <circle cx="24" cy="28" r="10" fill="#48B0F7"/>
+      <path d="M18 28 l6 6 l11 -13" fill="none" stroke="#0F172A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <!-- texto -->
+      <text x="50" y="34" class="bullet-text" font-size="32" xml:space="preserve">
+        <tspan x="50" dy="0">Java seguro y con fuerte tipado</tspan>
+        
+        
+      </text>
+    </g>
+    
+    <g transform="translate(32, 300)">
+      <!-- icono bullet -->
+      <circle cx="24" cy="28" r="10" fill="#48B0F7"/>
+      <path d="M18 28 l6 6 l11 -13" fill="none" stroke="#0F172A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <!-- texto -->
+      <text x="50" y="34" class="bullet-text" font-size="32" xml:space="preserve">
+        <tspan x="50" dy="0">PHP optimizado para sitios dinamicos</tspan>
+        
+        
+      </text>
+    </g>
+    
+    <g transform="translate(32, 430)">
+      <!-- icono bullet -->
+      <circle cx="24" cy="28" r="10" fill="#48B0F7"/>
+      <path d="M18 28 l6 6 l11 -13" fill="none" stroke="#0F172A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <!-- texto -->
+      <text x="50" y="34" class="bullet-text" font-size="32" xml:space="preserve">
+        <tspan x="50" dy="0">Node.js usa JavaScript en el servidor</tspan>
+        
+        
+      </text>
+    </g>
+    
+    <g transform="translate(32, 560)">
+      <!-- icono bullet -->
+      <circle cx="24" cy="28" r="10" fill="#48B0F7"/>
+      <path d="M18 28 l6 6 l11 -13" fill="none" stroke="#0F172A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <!-- texto -->
+      <text x="50" y="34" class="bullet-text" font-size="32" xml:space="preserve">
+        <tspan x="50" dy="0">Go ideal para microservicios rapidos</tspan>
+        
+        
+      </text>
+    </g>
+    
+  </g>
+</svg>

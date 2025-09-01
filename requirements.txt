@@ -1,0 +1,14 @@
+certifi==2025.8.3
+cffi==1.17.1
+charset-normalizer==3.4.3
+cssselect2==0.8.0
+defusedxml==0.7.1
+idna==3.10
+Jinja2==3.1.6
+MarkupSafe==3.0.2
+pillow==11.3.0
+pycparser==2.22
+requests==2.32.5
+tinycss2==1.4.0
+urllib3==2.5.0
+webencodings==0.5.1

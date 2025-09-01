@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <!-- ===== estilos ===== -->
+  <defs>
+    <style>
+      .bg { fill:#0F172A; }
+      .rail { fill:#0B1221; opacity:.85; }
+      .title { font-family:Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; font-weight:800; fill:#FFFFFF; }
+      .code-box { fill:#0B1221; stroke:#1F2635; stroke-width:2; }
+      .bar { fill:#12192B; }
+      .muted { fill:#94A3B8; }
+      .code { font-family:'JetBrains Mono', Consolas, 'Courier New', monospace; fill:#CFE7FF; }
+      .bubble { fill:#F6C453; }
+      .bubble-stroke { stroke:#D9A83A; stroke-width:2; fill:none; opacity:.25; }
+    </style>
+  </defs>
+
+  <!-- ===== fondo y franja ===== -->
+  <rect class="bg" x="0" y="0" width="1080" height="1080"/>
+  <rect class="rail" x="0" y="0" width="120" height="1080"/>
+
+  <!-- ===== título ===== -->
+  <!-- Variables: {{ TITLE_LINE1 }}, {{ TITLE_LINE2 }} -->
+  <g class="title" font-size="64" text-anchor="start">
+    <text x="160" y="150">{{ TITLE_LINE1 }}</text>
+    <text x="160" y="220">{{ TITLE_LINE2 }}</text>
+  </g>
+
+  <!-- ===== panel de código ===== -->
+  <!-- caja 720x480 centrada visualmente -->
+  <g transform="translate(180,260)">
+    <rect class="code-box" x="0" y="0" rx="16" ry="16" width="720" height="480"/>
+    <rect class="bar" x="0" y="0" rx="16" ry="16" width="720" height="56"/>
+    <circle cx="36" cy="28" r="8" fill="#FF5F56"/>
+    <circle cx="60" cy="28" r="8" fill="#FFBD2E"/>
+    <circle cx="84" cy="28" r="8" fill="#27C93F"/>
+
+    <!-- código (una línea por <tspan>) -->
+    <!-- Variable: lista {{ CODE_LINES }} -->
+    <text x="24" y="96" class="code" font-size="28" xml:space="preserve">
+      {% for line in CODE_LINES %}
+        <tspan x="24" dy="{{ 34 if not loop.first else 0 }}">{{ line }}</tspan>
+      {% endfor %}
+    </text>
+  </g>
+
+  <!-- ===== globo de explicación + avatar ===== -->
+  <g transform="translate(140,880)">
+    <!-- avatar (usa imagen si querés) -->
+    <defs>
+      <clipPath id="avatarClip"><circle cx="64" cy="64" r="64"/></clipPath>
+    </defs>
+    <circle cx="64" cy="64" r="64" fill="#0B1221" stroke="#1F2635" stroke-width="3"/>
+    <image href="{{ AVATAR_URL }}" x="0" y="0" width="128" height="128" clip-path="url(#avatarClip)"/>
+    <!-- placeholder si no hay imagen -->
+    <text x="64" y="74" text-anchor="middle" font-family="Inter" font-size="22" fill="#94A3B8">MC</text>
+
+    <!-- manito -->
+    <text x="150" y="44" font-family="Inter" font-size="32">👉</text>
+
+    <!-- globo -->
+    <g transform="translate(170,0)">
+      <rect x="0" y="0" rx="18" ry="18" width="740" height="200" class="bubble"/>
+      <path d="M 40 200 L 24 218 L 22 188 Z" class="bubble"/>
+      <rect x="0" y="0" rx="18" ry="18" width="740" height="200" class="bubble-stroke"/>
+
+      <!-- explicación (línea por <tspan>) -->
+      <!-- Variable: lista {{ EXPLAIN_LINES }} -->
+      <text x="24" y="44" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif"
+            font-size="28" fill="#0B1221">
+        {% for line in EXPLAIN_LINES %}
+          <tspan x="24" dy="{{ 34 if not loop.first else 0 }}">{{ line }}</tspan>
+        {% endfor %}
+      </text>
+    </g>
+  </g>
+</svg>
